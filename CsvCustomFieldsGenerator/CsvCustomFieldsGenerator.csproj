@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>Csv.CustomFieldsGenerator</PackageId>
+    <Authors>dneprokos</Authors>
+    <Product />
+    <Description>This package was designed for quick creation of CSV stream with the custom/dynamic fields. E.g. if your fields depends on environment data.  
+Examples: Product:&lt;id&gt;
+</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>Csv, Generator</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="28.0.1" />
+  </ItemGroup>
+
+</Project>
