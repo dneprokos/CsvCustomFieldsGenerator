@@ -3,13 +3,17 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <PackageId>Csv.CustomFieldsGenerator</PackageId>
-    <Authors>dneprokos</Authors>
+    <Authors>Kostiantyn Teltov</Authors>
     <Product />
-    <Description>This package was designed for quick creation of CSV stream with the custom/dynamic fields. E.g. if your fields depends on environment data.  
+    <Description>This library was designed for quick creation of CSV streams with the custom/dynamic fields. E.g. if you want to include some dynamic fields depends on environment data.  
 Examples: Product:&lt;id&gt;
 </Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageTags>Csv, Generator</PackageTags>
+    <RepositoryUrl>https://github.com/dneprokos/CsvCustomFieldsGenerator</RepositoryUrl>
+    <Version>0.2.0</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>Add MIT License and create sample of Readmyfile</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
