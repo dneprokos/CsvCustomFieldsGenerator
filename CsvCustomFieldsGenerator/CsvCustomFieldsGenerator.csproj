@@ -4,20 +4,22 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <PackageId>Csv.CustomFieldsGenerator</PackageId>
     <Authors>Kostiantyn Teltov</Authors>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
     <Product />
     <Description>This library was designed for quick creation of CSV streams with the custom/dynamic fields. E.g. if you want to include some dynamic fields depends on environment data.  
 Examples: Product:&lt;id&gt;
-</Description>
+    </Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageTags>Csv, Generator</PackageTags>
     <RepositoryUrl>https://github.com/dneprokos/CsvCustomFieldsGenerator</RepositoryUrl>
-    <Version>0.2.0</Version>
+    <Version>0.3.4</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageReleaseNotes>Add MIT License and create sample of Readmyfile</PackageReleaseNotes>
+    <PackageReleaseNotes>Fixing Readme file path</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="CsvHelper" Version="28.0.1" />
+    <None Include="..\readme.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
