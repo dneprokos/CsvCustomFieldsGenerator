@@ -4,6 +4,10 @@
 
 Project was designed for quick creation of Csv streams with records contain some dynamic fields
 
+## Nuget package 
+
+https://www.nuget.org/packages/Csv.CustomFieldsGenerator
+
 ## How to use
 
 1. Create a model implements ICustomFields interface (Will require to add CustomFields to model)
