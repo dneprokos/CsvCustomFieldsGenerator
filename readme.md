@@ -8,6 +8,13 @@ Project was designed for quick creation of Csv streams with records contain some
 
 https://www.nuget.org/packages/Csv.CustomFieldsGenerator
 
+## Change log
+
+|Version|Description|
+| ------- | --- |
+|1.0.1 |Updated TargetFramework from .CORE3.1 to .NET6 |
+|1.0.0 |Initial nuget package release |
+
 ## How to use
 
 1. Create a model implements ICustomFields interface (Will require to add CustomFields to model)
