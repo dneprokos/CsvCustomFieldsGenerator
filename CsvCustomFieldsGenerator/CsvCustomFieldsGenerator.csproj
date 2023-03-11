@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <PackageId>Csv.CustomFieldsGenerator</PackageId>
     <Authors>Kostiantyn Teltov</Authors>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
@@ -13,7 +13,7 @@ Examples: Product:&lt;id&gt;
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageTags>Csv, Generator</PackageTags>
     <RepositoryUrl>https://github.com/dneprokos/CsvCustomFieldsGenerator</RepositoryUrl>
-    <Version>1.0.0</Version>
+    <Version>$(Version)</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReleaseNotes>Adding package icon.</PackageReleaseNotes>
     <PackageIcon>csv_package_icon.jpg</PackageIcon>
@@ -23,7 +23,7 @@ Examples: Product:&lt;id&gt;
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\Users\Master\Desktop\csv_package_icon.jpg">
+    <None Include="..\csv_package_icon.jpg">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
