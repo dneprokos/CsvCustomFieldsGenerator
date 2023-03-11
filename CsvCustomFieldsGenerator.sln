@@ -1,12 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32630.194
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvCustomFieldsGenerator", "CsvCustomFieldsGenerator\CsvCustomFieldsGenerator.csproj", "{62256042-F2EE-433B-9628-4C70F0241835}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{78E781D6-0D8C-4007-B27D-AD6D890FC634}"
 	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
 		readme.md = readme.md
 	EndProjectSection
 EndProject
